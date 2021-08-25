@@ -1,1 +1,2 @@
-web gunicorn djangoherokuapp.wsgi"
+web: gunicorn djangoherokuapp.wsgi
+heroku ps:scale web=1
