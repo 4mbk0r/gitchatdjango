@@ -1,1 +1,1 @@
-echo " web: gunicorn djangoherokuapp.wsgi"> Procfile
+web gunicorn djangoherokuapp.wsgi"
